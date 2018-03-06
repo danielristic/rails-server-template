@@ -32,15 +32,15 @@ cookbook 'postgresql', '~> 4.0.6'
 cookbook 'sudo', '~> 2.9.0'
 
 # cookbook 'ufw', github: 'opscode-cookbooks/ufw'
-cookbook 'ufw', '~> 1.0.0'
-cookbook 'firewall', '~> 2.5.2'
+cookbook 'ufw', '~> 2.0.0'
+cookbook 'firewall', '~> 2.6.2'
 
-cookbook 'nginx', github: 'miketheman/nginx'
+cookbook 'nginx'
 
-cookbook 'users', '~> 2.0.3'
+cookbook 'users', '~> 4.0.3'
 
 cookbook 'rails_gem_dependencies-tlq', github: 'TalkingQuickly/rails_gem_dependencies-tlq'
-cookbook 'ruby_rbenv', github: 'fnichol/chef-rbenv'
+cookbook 'ruby_rbenv', '~> 1.2.1'
 cookbook 'redis-server', github: 'TalkingQuickly/redis-server'
 cookbook 'monit-tlq', github: 'TalkingQuickly/monit-tlq', branch: 'master'
 cookbook 'monit_configs-tlq', github: 'TalkingQuickly/monit_configs-tlq', branch: 'master'
